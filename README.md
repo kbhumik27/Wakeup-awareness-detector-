@@ -1,5 +1,7 @@
 
 # WakeUp (Awareness Detector)
+![mermaid-diagram-2024-12-04-071033](https://github.com/user-attachments/assets/7e5ebf92-2ee1-4a0b-8c19-0d01b53f6439)
+
 
 WakeUp is a Python-based project designed to monitor and enhance user alertness through real-time facial analysis. This project leverages computer vision and machine learning techniques using **MediaPipe**, **OpenCV**, and **Google Text-to-Speech**. It detects eye blinks, yawns, and gaze direction to alert users to potential drowsiness or inattentiveness, making it ideal for drivers, students, or professionals requiring sustained attention.
 
