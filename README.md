@@ -3,8 +3,7 @@
 
 ![mermaid-diagram-2024-12-04-071138](https://github.com/user-attachments/assets/81d4b99d-5dab-48c4-9f00-b209d30c61b2)
 
-
-WakeUp is a Python-based project designed to monitor and enhance user alertness through real-time facial analysis. This project leverages computer vision and machine learning techniques using **MediaPipe**, **OpenCV**, and **Google Text-to-Speech**. It detects eye blinks, yawns, and gaze direction to alert users to potential drowsiness or inattentiveness, making it ideal for drivers, students, or professionals requiring sustained attention.
+**WakeUp** is a Python-based project designed to monitor and enhance user alertness through real-time facial analysis. This project leverages computer vision and machine learning techniques using **MediaPipe**, **OpenCV**, and **Google Text-to-Speech**. It detects eye blinks, yawns, and gaze direction to alert users to potential drowsiness or inattentiveness, making it ideal for drivers, students, or professionals requiring sustained attention.
 
 ## Features
 
@@ -23,11 +22,19 @@ Ensure you have the following libraries installed:
 - `numpy`
 - `gtts`
 - `playsound`
+- `react`
+- `css`
 
 You can install the dependencies using the following command:
 
 ```bash
 pip install mediapipe opencv-python numpy gtts playsound
+```
+
+For the front end:
+
+```bash
+npm install react react-dom
 ```
 
 ## Installation
@@ -43,9 +50,14 @@ pip install mediapipe opencv-python numpy gtts playsound
     pip install -r requirements.txt
     ```
 
-3. Run the script:
+3. Run the Python backend script:
     ```bash
     python wakeup.py
+    ```
+
+4. For the front end, navigate to the React directory and run:
+    ```bash
+    npm start
     ```
 
 ## Usage
@@ -66,6 +78,9 @@ wakeup-awareness-detector/
 │
 ├── wakeup.py           # Main script for running the awareness detector
 ├── requirements.txt    # Dependencies for the project
+├── frontend/           # React-based front end
+│   ├── src/            # React components and CSS files
+│   └── public/         # Public assets (images, index.html)
 └── README.md           # Project documentation
 ```
 
@@ -116,6 +131,6 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 - [MediaPipe](https://mediapipe.dev/) for its robust face detection and mesh modules.
 - [OpenCV](https://opencv.org/) for real-time image processing.
 - [gTTS](https://pypi.org/project/gTTS/) for text-to-speech alerts.
+- [React](https://reactjs.org/) for the user interface development.
 
 Stay alert, stay safe!
-```
